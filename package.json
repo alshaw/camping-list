@@ -1,0 +1,27 @@
+{
+  "name": "camping-friends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.9.2"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "logger": "0.0.1",
+    "mongoose": "^5.0.16",
+    "react-router": "^4.2.0",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.80.0",
+    "uuid": "^3.2.1"
+  }
+}
